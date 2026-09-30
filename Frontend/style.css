@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f3e4d0;
+    background-image: url("../assets/mancha fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+header {
+    margin-left: 55px;
+    padding: 20px;
+
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+
+    font-size: 28px;
+    color: #f3e4d0;
+}
+
+main {
+    margin-left: 55px;
+    padding: 20px;
+}
+
+.chat {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 100px;  
+}
+.mensagem {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    max-width: 70%;
+}
+.mensagem-alli {
+    margin-right: auto;
+    border-radius: 15px 15px 15px 3px;
+    background-color: #3b2a24;
+    color: white;
+}
+
+.mensagem-usuario {
+    margin-left: auto;
+    border-radius: 15px 15px 3px 15px;
+    background-color: #d9b382;
+    color: #211814;
+}
+.barra-lateral {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 55px;
+    height: 100vh;
+
+    background-color: rgba(15, 10, 8, 0.92);
+    border-right: 1px solid rgba(217, 179, 130, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    padding-top: 0;
+}
+.barra-lateral button {
+    width: 60px;
+    height: 60px;
+
+    margin-bottom: 30px;
+
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+
+    color: #c89b63;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.barra-lateral button svg {
+    width: 28px;
+    height: 28px;
+}
+.barra-lateral button:hover,
+.barra-lateral button.ativo {
+    background-color: rgba(120, 75, 40, 0.45);
+}
+.campo-mensagem {
+    position: fixed;
+    bottom: 25px;
+    left: 55px;
+    right: 0;
+
+    max-width: 700px;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 10px;
+}
+.campo-mensagem input {
+    flex: 1;
+
+    padding: 14px 18px;
+
+    background-color: rgba(45, 30, 24, 0.9);
+    border: 1px solid rgba(217, 179, 130, 0.35);
+    border-radius: 12px;
+
+    color: #f3e4d0;
+    outline: none;
+}
+.campo-mensagem button {
+    width: 48px;
+    height: 48px;
+
+    background-color: #d9b382;
+    border: none;
+    border-radius: 10px;
+
+    color: #211814;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.campo-mensagem button svg {
+    width: 20px;
+    height: 20px;
+}
+@media (max-width: 600px) {
+
+    .barra-lateral {
+        width: 50px;
+    }
+
+    main {
+        margin-left: 50px;
+        padding: 10px;
+    }
+
+    header {
+        margin-left: 50px;
+        padding: 15px 10px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .chat {
+        width: 100%;
+    }
+
+    .mensagem {
+        max-width: 80%;
+    }
+
+    .campo-mensagem {
+        left: 50px;
+        right: 10px;
+        bottom: 15px;
+    }
+} 

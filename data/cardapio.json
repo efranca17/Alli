@@ -1,0 +1,348 @@
+{
+    "bebidas_quentes": [
+        {
+            "nome": "Espresso",
+            "preco": 8.00,
+            "tem_cafe": true,
+            "temperatura": "quente",
+            "intensidade_cafe": "alta",
+            "perfil": ["café", "intenso", "encorpado"],
+            "ingredientes_principais": ["café"],
+            "metodo_preparo": "espresso"
+        },
+        {
+            "nome": "Espresso Duplo",
+            "preco": 14.00,
+            "tem_cafe": true,
+            "temperatura": "quente",
+            "intensidade_cafe": "alta",
+            "perfil": ["café", "intenso", "encorpado"],
+            "ingredientes_principais": ["café"],
+            "metodo_preparo": "espresso duplo"
+        },
+       {
+            "nome": "Café Filtrado",
+            "preco": 10.00,
+            "tem_cafe": true,
+            "temperatura": "quente",
+            "intensidade_cafe": "media",
+            "perfil": ["café", "aromático", "variável"],
+            "ingredientes_principais": ["café", "água"],
+            "metodo_preparo": "V60, Aeropress ou pano"
+        },
+        {
+            "nome": "Infusão - Prensa/Aeropress",
+            "preco": 10.00,
+            "tem_cafe": true,
+            "temperatura": "quente",
+            "intensidade_cafe": "media",
+            "perfil": ["café", "encorpado", "aromático"],
+            "ingredientes_principais": ["café", "água"],
+            "metodo_preparo": "prensa ou Aeropress"
+        },
+        {
+            "nome": "Cappuccino Italiano",
+            "preco": 14.00,
+            "tem_cafe": true,
+            "temperatura": "quente",
+            "intensidade_cafe": "media",
+            "perfil": ["café", "cremoso", "lácteo"],
+            "ingredientes_principais": ["espresso", "leite vaporizado", "espuma de leite"],
+            "metodo_preparo": "espresso com leite vaporizado e espuma"
+        },
+        {
+            "nome": "Cappuccino Baunilha",
+            "preco": 16.00,
+            "tem_cafe": true,
+            "temperatura": "quente",
+            "intensidade_cafe": "media",
+            "perfil": ["café", "baunilha", "doce", "cremoso"],
+            "ingredientes_principais": ["espresso", "leite", "baunilha", "espuma de leite"],
+            "metodo_preparo": "cappuccino com sabor de baunilha"
+        },
+        {
+            "nome": "Cappuccino Chocolate",
+            "preco": 16.00,
+            "tem_cafe": true,
+            "temperatura": "quente",
+            "intensidade_cafe": "media",
+            "perfil": ["café", "chocolate", "doce", "cremoso"],
+            "ingredientes_principais": ["espresso", "leite", "chocolate", "espuma de leite"],
+            "metodo_preparo": "cappuccino com chocolate"
+        },
+        {
+            "nome": "Cappuccino Caramelo salgado",
+            "preco": 16.00,
+            "tem_cafe": true,
+            "temperatura": "quente",
+            "intensidade_cafe": "media",
+            "perfil": ["café", "caramelo", "doce", "salgado", "cremoso"],
+            "ingredientes_principais": ["espresso", "leite", "caramelo", "sal"],
+            "metodo_preparo": "cappuccino com caramelo e sal"
+        },
+        {
+            "nome": "Chocolate Cremoso",
+            "preco": 14.00,
+            "tem_cafe": false,
+            "temperatura": "quente",
+            "intensidade_cafe": "nenhuma",
+            "perfil": ["chocolate", "doce", "cremoso"],
+            "ingredientes_principais": ["chocolate", "leite"],
+            "metodo_preparo": "bebida de chocolate cremosa"
+        },
+        {
+            "nome": "Chocolate Branco Cremoso",
+            "preco": 14.00,
+            "tem_cafe": false,
+            "temperatura": "quente",
+            "intensidade_cafe": "nenhuma",
+            "perfil": ["chocolate branco", "doce", "cremoso"],
+            "ingredientes_principais": ["chocolate branco", "leite"],
+            "metodo_preparo": "bebida de chocolate branco cremosa"
+        }
+    ],
+
+    "bebidas_geladas": [
+        {
+            "nome": "Iced Latte Tradicional",
+            "preco": 14.00,
+            "tem_cafe": true,
+            "temperatura": "gelado",
+            "intensidade_cafe": "media",
+            "perfil": ["café", "leite", "cremoso", "refrescante"],
+            "ingredientes_principais": ["espresso", "leite", "gelo"],
+            "metodo_preparo": "espresso com leite e gelo"
+        },
+        {
+            "nome": "Iced Latte Chocolate",
+            "preco": 16.00,
+            "tem_cafe": true,
+            "temperatura": "gelado",
+            "intensidade_cafe": "baixa",
+            "perfil": ["café", "chocolate", "doce", "cremoso"],
+            "ingredientes_principais": ["espresso", "leite", "chocolate", "gelo"],
+            "metodo_preparo": "iced latte com chocolate"
+        },
+        {
+            "nome": "Iced Latte Baunilha",
+            "preco": 16.00,
+            "tem_cafe": true,
+            "temperatura": "gelado",
+            "intensidade_cafe": "baixa",
+            "perfil": ["café", "baunilha", "doce", "cremoso"],
+            "ingredientes_principais": ["espresso", "leite", "baunilha", "gelo"],
+            "metodo_preparo": "iced latte com baunilha"
+        },
+        {
+            "nome": "Iced Latte Caramelo",
+            "preco": 16.00,
+            "tem_cafe": true,
+            "temperatura": "gelado",
+            "intensidade_cafe": "baixa",
+            "perfil": ["café", "caramelo", "doce", "cremoso"],
+            "ingredientes_principais": ["espresso", "leite", "caramelo", "gelo"],
+            "metodo_preparo": "iced latte com caramelo"
+        },
+        {
+            "nome": "Frappuccino Chocolate",
+            "preco": 20.00,
+            "tem_cafe": true,
+            "temperatura": "gelado",
+            "intensidade_cafe": "baixa",
+            "perfil": ["café", "chocolate", "doce", "cremoso"],
+            "ingredientes_principais": ["café", "chocolate", "leite", "gelo"],
+            "metodo_preparo": "bebida de café batida com gelo"
+        },
+        {
+            "nome": "Frappuccino Doce de Leite",
+            "preco": 22.00,
+            "tem_cafe": true,
+            "temperatura": "gelado",
+            "intensidade_cafe": "baixa",
+            "perfil": ["café", "doce de leite", "doce", "cremoso"],
+            "ingredientes_principais": ["café", "doce de leite", "leite", "gelo"],
+            "metodo_preparo": "bebida de café batida com gelo"
+        },
+        {
+            "nome": "Iced Coffee Citrus",
+            "preco": 16.00,
+            "tem_cafe": true,
+            "temperatura": "gelado",
+            "intensidade_cafe": "media",
+            "perfil": ["café", "cítrico", "refrescante"],
+            "ingredientes_principais": ["café", "cítricos", "gelo"],
+            "metodo_preparo": "café servido gelado com elementos cítricos"
+        },
+        {
+            "nome": "Affogato",
+            "preco": 14.00,
+            "tem_cafe": true,
+            "temperatura": "gelado",
+            "intensidade_cafe": "alta",
+            "perfil": ["café", "baunilha", "doce", "cremoso", "contraste quente e frio"],
+            "ingredientes_principais": ["espresso", "sorvete ou gelato"],
+            "metodo_preparo": "espresso servido sobre sorvete"
+        }
+    ],
+
+    "lanches_rapidos": [
+        {
+            "nome": "Pão de Queijo Tradicional",
+            "preco": 6.00,
+            "tem_cafe": false,
+            "perfil": ["salgado", "queijo", "macio"],
+            "ingredientes_principais": ["polvilho", "queijo"],
+            "metodo_preparo": "assado"
+        },
+        {
+            "nome": "Pão de Queijo Salame",
+            "preco": 8.00,
+            "tem_cafe": false,
+            "perfil": ["salgado", "queijo", "defumado"],
+            "ingredientes_principais": ["pão de queijo", "salame"],
+            "metodo_preparo": "assado"
+        },
+        {
+            "nome": "Pão de Queijo Goiabada",
+            "preco": 8.00,
+            "tem_cafe": false,
+            "perfil": ["doce", "salgado", "queijo", "frutado"],
+            "ingredientes_principais": ["pão de queijo", "goiabada"],
+            "metodo_preparo": "assado"
+        },
+        {
+            "nome": "Pão com Manteiga",
+            "preco": 10.00,
+            "tem_cafe": false,
+            "perfil": ["salgado", "amanteigado"],
+            "ingredientes_principais": ["pão", "manteiga"],
+            "metodo_preparo": "pão servido com manteiga"
+        },
+        {
+            "nome": "Tostex Queijo",
+            "preco": 16.00,
+            "tem_cafe": false,
+            "perfil": ["salgado", "queijo", "cremoso"],
+            "ingredientes_principais": ["creme de gorgonzola", "mussarela", "pão"],
+            "metodo_preparo": "tostado"
+        },
+        {
+            "nome": "Tostex com Salame",
+            "preco": 18.00,
+            "tem_cafe": false,
+            "perfil": ["salgado", "salame", "queijo"],
+            "ingredientes_principais": ["salame", "pão"],
+            "metodo_preparo": "tostado"
+        },
+        {
+            "nome": "Mini Baguette",
+            "preco": 14.00,
+            "tem_cafe": false,
+            "perfil": ["salgado", "cremoso", "herbal", "fresco"],
+            "ingredientes_principais": ["queijo brie", "pesto", "tomate", "baguete"],
+            "metodo_preparo": "sanduíche"
+        }
+    ],
+
+    "doces": [
+        {
+            "nome": "Bolo do Dia",
+            "preco": 10.00,
+            "tem_cafe": false,
+            "perfil": ["doce"],
+            "ingredientes_principais": [],
+            "metodo_preparo": "não informado"
+        },
+        {
+            "nome": "Brigadeiro",
+            "preco": 3.00,
+            "tem_cafe": false,
+            "perfil": ["chocolate", "doce", "cremoso"],
+            "ingredientes_principais": ["leite condensado", "chocolate ou cacau"],
+            "metodo_preparo": "cozido"
+        },
+        {
+            "nome": "Brownie",
+            "preco": 7.00,
+            "tem_cafe": false,
+            "perfil": ["chocolate", "doce", "intenso", "denso"],
+            "ingredientes_principais": ["chocolate", "açúcar", "manteiga", "farinha", "ovos"],
+            "metodo_preparo": "assado"
+        },
+        {
+            "nome": "Cookie tradicional chocolate",
+            "preco": 7.00,
+            "tem_cafe": false,
+            "perfil": ["chocolate", "doce", "crocante"],
+            "ingredientes_principais": ["massa de cookie", "chocolate"],
+            "metodo_preparo": "assado"
+        },
+        {
+            "nome": "Cookie Limão com amêndoas",
+            "preco": 7.00,
+            "tem_cafe": false,
+            "perfil": ["cítrico", "doce", "amêndoas"],
+            "ingredientes_principais": ["massa de cookie", "limão", "amêndoas"],
+            "metodo_preparo": "assado"
+        },
+        {
+            "nome": "Cinnamon Roll com doce de leite",
+            "preco": 7.00,
+            "tem_cafe": false,
+            "perfil": ["canela", "doce", "doce de leite", "aromático"],
+            "ingredientes_principais": ["massa", "canela", "doce de leite"],
+            "metodo_preparo": "assado"
+        },
+        {
+            "nome": "Super Morango",
+            "preco": 20.00,
+            "tem_cafe": false,
+            "perfil": ["morango", "doce"],
+            "ingredientes_principais": ["morango"],
+            "metodo_preparo": "não informado"
+        }
+    ],
+
+    "sem_cafe": [
+        {
+            "nome": "Soda Italiana",
+            "preco": 16.00,
+            "tem_cafe": false,
+            "temperatura": "gelado",
+            "intensidade_cafe": "nenhuma",
+            "perfil": ["refrescante", "doce", "frutado"],
+            "ingredientes_principais": ["água gaseificada", "xarope saborizado", "gelo"],
+            "metodo_preparo": "mistura de xarope e água gaseificada"
+        },
+        {
+            "nome": "Suco",
+            "preco": 12.00,
+            "tem_cafe": false,
+            "temperatura": "gelado",
+            "intensidade_cafe": "nenhuma",
+            "perfil": ["frutado", "refrescante"],
+            "ingredientes_principais": ["fruta"],
+            "metodo_preparo": "não informado"
+        },
+        {
+            "nome": "Água sem gás",
+            "preco": 6.00,
+            "tem_cafe": false,
+            "temperatura": "gelado",
+            "intensidade_cafe": "nenhuma",
+            "perfil": ["neutro", "refrescante"],
+            "ingredientes_principais": ["água"],
+            "metodo_preparo": "não aplicável"
+        },
+        {
+            "nome": "Água com gás",
+            "preco": 6.00,
+            "tem_cafe": false,
+            "temperatura": "gelado",
+            "intensidade_cafe": "nenhuma",
+            "perfil": ["neutro", "refrescante", "gaseificado"],
+            "ingredientes_principais": ["água gaseificada"],
+            "metodo_preparo": "não aplicável"
+        }
+    ]
+}
